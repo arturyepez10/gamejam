@@ -37,6 +37,7 @@ public class Jump : MonoBehaviour
         }
         else if (Input.GetKeyDown("space") && !grounded && !alreadyDJ && djEnabled)
         {
+            r2d.velocity = (Vector2.right * r2d.velocity.x);
             r2d.AddForce(Vector2.up * jump);
             current_pos = transform.position;
             grounded = false;  
