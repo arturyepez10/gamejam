@@ -21,12 +21,12 @@ public class Switch_function : MonoBehaviour
         }
     }
 
-    //private void OnTriggerExit2D(Collider2D col)
-    //{
-    //    if((col.tag == "Player") || (col.tag == "Mother"))
-    //    {
-    //        pressed = false;
-    //        SR_switch.enabled = true;
-    //    }
-    //}
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if((col.tag == "Player") || (col.tag == "Mother"))
+        {
+            pressed = false;
+            SR_switch.enabled = true;
+        }
+    }
 }
