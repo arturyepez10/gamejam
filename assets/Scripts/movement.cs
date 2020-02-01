@@ -12,6 +12,7 @@ public class movement : MonoBehaviour
     public GameObject hand;
     private Grab grab;
     private bool grabbed;
+    private bool can_move = true;
 
     void Start()
     {
@@ -22,9 +23,13 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         moveHorizontal = Input.GetAxisRaw("Horizontal");
+        if(can_move || moveHorizontal >= 0)
+        {
+            transform.position += new Vector3(speed * Time.deltaTime * moveHorizontal, 0f, 0f);
+        }
         // Actualizamos la posicion
-        transform.position += new Vector3(speed * Time.deltaTime * moveHorizontal, 0f, 0f);
         grabbed = grab.grabbed;
         // Si se mueve en direccion contraria y no tiene nada agarrado, rota 180 grados
         if((moveHorizontal < 0) && !grabbed)
@@ -34,6 +39,24 @@ public class movement : MonoBehaviour
         if((moveHorizontal > 0) && !grabbed)
         {
             transform.rotation = Quaternion.Euler(Vector3.up * 0);
+        }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.tag == "Unseen Wall")
+        {
+            moveHorizontal = 0;
+            can_move = false;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D col)
+    {
+        if(col.gameObject.tag == "Unseen Wall")
+        {
+            can_move = true;
         }
     }
 }

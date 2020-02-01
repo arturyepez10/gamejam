@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Floor
   - Obstacle
+  - Mother
+  - Unseen Wall
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - 
   - 
   - Background
-  - 
-  - 
+  - Family Member
+  - Player
   - 
   - 
   - 
@@ -42,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Source Light
+    uniqueID: 2171024481
     locked: 0
