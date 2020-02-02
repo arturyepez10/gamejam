@@ -25,6 +25,12 @@ public class Detect : MonoBehaviour
     // Vector con la posicion actual antes de saltar
     private Vector3 current_pos;
     public GameObject libreria;
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +51,15 @@ public class Detect : MonoBehaviour
         choque = CheckRaycastLeft(Vector2.left * distancia, -offset);
 
         Movement(choque);
+
+        if (Mathf.Abs(moveHorizontal) != 0)
+        {
+            animator.SetBool("mother_move", true);
+        }
+        else
+        {
+            animator.SetBool("mother_move", false);
+        }
     }
 
     private RaycastHit2D CheckRaycastRight(Vector2 direccion, float offset)
@@ -82,13 +97,16 @@ public class Detect : MonoBehaviour
                 transform.position += new Vector3(speed * Time.deltaTime * moveHorizontal , 0f, 0f);
 
                 // Si se mueve en direccion contraria , rota 180 grados
-                if ((moveHorizontal < 0))
+             
+                if ((moveHorizontal < 0) )
                 {
-                    transform.rotation = Quaternion.Euler(Vector3.up * 180);
+                    //  transform.rotation = Quaternion.Euler(Vector3.up * 180);
+                    GetComponent<SpriteRenderer>().flipX = true;
                 }
                 if ((moveHorizontal > 0))
                 {
-                    transform.rotation = Quaternion.Euler(Vector3.up * 0);
+                    //transform.rotation = Quaternion.Euler(Vector3.up * 0);
+                    GetComponent<SpriteRenderer>().flipX = false;
                 }
             }
 
@@ -110,11 +128,13 @@ public class Detect : MonoBehaviour
                 // Si se mueve en direccion contraria , rota 180 grados
                 if ((moveHorizontal < 0))
                 {
-                    transform.rotation = Quaternion.Euler(Vector3.up * 180);
+                    //  transform.rotation = Quaternion.Euler(Vector3.up * 180);
+                    GetComponent<SpriteRenderer>().flipX = true;
                 }
                 if ((moveHorizontal > 0))
                 {
-                    transform.rotation = Quaternion.Euler(Vector3.up * 0);
+                    //transform.rotation = Quaternion.Euler(Vector3.up * 0);
+                    GetComponent<SpriteRenderer>().flipX = false;
                 }
             }
 

@@ -20,9 +20,14 @@ public class StartGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }  
+
         if (Input.anyKeyDown)
         {
-           // SceneManager.LoadScene(SceneManager.GetSceneByBuildIndex(SceneManager.GetActiveScene) + 1);
+           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1 );
         }
     }
 
