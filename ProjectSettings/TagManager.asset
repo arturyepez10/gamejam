@@ -10,6 +10,8 @@ TagManager:
   - Unseen Wall
   - Pendulo
   - death_floo
+  - mom_door
+  - dad_door
   layers:
   - Default
   - TransparentFX
