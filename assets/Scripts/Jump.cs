@@ -66,4 +66,18 @@ public class Jump : MonoBehaviour
             r2d.angularVelocity = 0f;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D col) {
+         // Si el jugador colisiona (toca) el piso
+        if (col.gameObject.tag == "Obstacle")
+        {
+            // marcamos que esta en el piso
+            grounded = true;
+            alreadyDJ = false;
+
+            // Hacemos esto para evitar inconsistencias en la fuerza de salto
+            r2d.velocity = Vector3.zero;
+            r2d.angularVelocity = 0f;
+        }
+    }
 }
