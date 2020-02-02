@@ -589,7 +589,7 @@ SpriteRenderer:
   m_Size: {x: 7.85, y: 4.42}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &490374715
@@ -1308,9 +1308,15 @@ SpriteRenderer:
   m_Size: {x: 7.85, y: 4.42}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &660695284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2683921477451802675, guid: c00faa8d81333424097c05d58fcda679,
+    type: 3}
+  m_PrefabInstance: {fileID: 1586014791}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &679374837
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,7 +2213,7 @@ SpriteRenderer:
   m_Size: {x: 7.85, y: 4.42}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1444345255 stripped
@@ -2241,6 +2247,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 1713504402}
+--- !u!95 &1444345264
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444345255}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 861687131111ef2409b1e856c6e28a40, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1586014791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2278,15 +2303,20 @@ PrefabInstance:
       propertyPath: djEnabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913809, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: hand
+      value: 
+      objectReference: {fileID: 660695284}
     - target: {fileID: 2683921477717913810, guid: c00faa8d81333424097c05d58fcda679,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.9
+      value: -5.45
       objectReference: {fileID: 0}
     - target: {fileID: 2683921477717913810, guid: c00faa8d81333424097c05d58fcda679,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.17
+      value: -3.36
       objectReference: {fileID: 0}
     - target: {fileID: 2683921477717913810, guid: c00faa8d81333424097c05d58fcda679,
         type: 3}
@@ -2333,6 +2363,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913810, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15759037
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913810, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1575904
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913810, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05253012
+      objectReference: {fileID: 0}
     - target: {fileID: 2683921477717913811, guid: c00faa8d81333424097c05d58fcda679,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2352,6 +2397,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913811, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 14946a886fa2dbe4b88b333323c3252b,
+        type: 3}
+    - target: {fileID: 2683921477717913811, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913812, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.058229446
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913812, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 5.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913812, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 17.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913812, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 17.44054
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913812, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.000006198883
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683921477717913812, guid: c00faa8d81333424097c05d58fcda679,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5.4445267
       objectReference: {fileID: 0}
     - target: {fileID: 2683921477717913814, guid: c00faa8d81333424097c05d58fcda679,
         type: 3}
@@ -2443,7 +2529,7 @@ SpriteRenderer:
   m_Size: {x: 7.85, y: 4.42}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1709707229
@@ -2674,6 +2760,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   padre: {fileID: 1713504402}
   speed: 5
+  jump: 60
+  djEnabled: 1
+  libreria: {fileID: 0}
 --- !u!114 &1713504408
 MonoBehaviour:
   m_ObjectHideFlags: 0

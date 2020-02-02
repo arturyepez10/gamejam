@@ -30,30 +30,35 @@ public class movement : MonoBehaviour
     void Update()
     {
 
-        moveHorizontal = Input.GetAxisRaw("Horizontal");
+        //moveHorizontal = Input.GetAxisRaw("Horizontal");
+        moveHorizontal = Input.GetAxis("Horizontal");
+
         if (Mathf.Abs(moveHorizontal)!=0)
         {
-            animator.SetBool("camina", true);
+            animator.SetBool("Player_move", true);
         }
         else
         {
-            animator.SetBool("camina",false);
+            animator.SetBool("Player_move",false);
         }
        
         if(can_move || moveHorizontal >= 0)
         {
             transform.position += new Vector3(speed * Time.deltaTime * moveHorizontal, 0f, 0f);
+            Debug.Log(transform.position);
         }
         // Actualizamos la posicion
         grabbed = grab.grabbed;
         // Si se mueve en direccion contraria y no tiene nada agarrado, rota 180 grados
         if((moveHorizontal < 0) && !grabbed)
         {
-            transform.rotation = Quaternion.Euler(Vector3.up * 180);
+            //  transform.rotation = Quaternion.Euler(Vector3.up * 180);
+            GetComponent<SpriteRenderer>().flipX = true;
         }
         if((moveHorizontal > 0) && !grabbed)
         {
-            transform.rotation = Quaternion.Euler(Vector3.up * 0);
+            //transform.rotation = Quaternion.Euler(Vector3.up * 0);
+            GetComponent<SpriteRenderer>().flipX = false;
         }
 
     }

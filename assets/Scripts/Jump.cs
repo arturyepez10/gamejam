@@ -17,6 +17,13 @@ public class Jump : MonoBehaviour
     // Vector con la posicion actual antes de saltar
     private Vector3 current_pos;
 
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +41,7 @@ public class Jump : MonoBehaviour
             r2d.AddForce(Vector2.up * jump);
             current_pos = transform.position;
             grounded = false;                             // **Ponemos grounded aqui en vez de OnCollisionExit2D() ya que puede tardar unos microsegundos en cambiarse y nos agrega una fuerza mucho mayor. En cambio aqui el cambio de grounded se realiza al instante.
+            
         }
         else if (Input.GetKeyDown("space") && !grounded && !alreadyDJ && djEnabled)
         {
@@ -41,11 +49,22 @@ public class Jump : MonoBehaviour
             r2d.AddForce(Vector2.up * jump);
             current_pos = transform.position;
             grounded = false;  
-            alreadyDJ = true;  
+            alreadyDJ = true;
+
+          
         }
-        
+
+        if (!grounded)
+        {
+            animator.SetBool("Player_jump", true);
+        }
+        else
+        {
+            animator.SetBool("Player_jump", false);
+        }
+
         // Cuando el salto llega a su limite, el Jugador se regresa al piso
-        if(transform.position.y >= current_pos.y + 1f)
+        if (transform.position.y >= current_pos.y + 1f)
         {
             r2d.velocity = (Vector2.right * r2d.velocity.x) + (Vector2.up * -2f);
         }

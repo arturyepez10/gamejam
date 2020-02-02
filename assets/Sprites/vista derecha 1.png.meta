@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 44eab5c831d67614291abb79fb981bf6
+guid: 2be8537ee73b60a4e87a480765b946b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1837923564228381876
-    second: vista derecha_0
+      213: -965593311788704728
+    second: vista derecha 1_0
   - first:
-      213: 122334778195920146
-    second: vista derecha_1
+      213: 230926386355922205
+    second: vista derecha 1_1
   - first:
-      213: -4733174345964765438
-    second: vista derecha_2
+      213: 527170790275824097
+    second: vista derecha 1_2
   - first:
-      213: -16982148032422736
-    second: vista derecha_3
+      213: 7303121746309126080
+    second: vista derecha 1_3
   - first:
-      213: -6160044263893410636
-    second: vista derecha_4
+      213: 4796649780784092557
+    second: vista derecha 1_4
   - first:
-      213: -8549065481848624962
-    second: vista derecha_5
+      213: -6146872390836871672
+    second: vista derecha 1_5
   - first:
-      213: 4226668995395104601
-    second: vista derecha_6
+      213: 4825380625800807820
+    second: vista derecha 1_6
   - first:
-      213: 9041942520046307513
-    second: vista derecha_7
+      213: 2791584636255250290
+    second: vista derecha 1_7
   - first:
-      213: -1566262412694168304
-    second: vista derecha_8
+      213: -6264554706203791704
+    second: vista derecha 1_8
   - first:
-      213: 6590720623966100817
-    second: vista derecha_9
+      213: -8405850940002610807
+    second: vista derecha 1_9
   - first:
-      213: -7560231920770307128
-    second: vista derecha_10
+      213: 1560978612994623332
+    second: vista derecha 1_10
   - first:
-      213: -2366393577067663599
-    second: vista derecha_11
+      213: 5565518157046447694
+    second: vista derecha 1_11
   - first:
-      213: 170014412130593587
-    second: vista derecha_12
+      213: 6329362570716786976
+    second: vista derecha 1_12
   - first:
-      213: -6862260912020508478
-    second: vista derecha_13
+      213: 5109709668943646285
+    second: vista derecha 1_13
   - first:
-      213: 6025677352137648798
-    second: vista derecha_14
+      213: -5679241717041518332
+    second: vista derecha 1_14
   - first:
-      213: 2280672550552839396
-    second: vista derecha_15
+      213: 5161137823674385269
+    second: vista derecha 1_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vista derecha_0
+      name: vista derecha 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -148,14 +148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bc07227ebd918910800000000000000
-      internalID: 1837923564228381876
+      spriteID: 82c5755bff58992f0800000000000000
+      internalID: -965593311788704728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_1
+      name: vista derecha 1_1
       rect:
         serializedVersion: 2
         x: 583
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2154b0625de92b100800000000000000
-      internalID: 122334778195920146
+      spriteID: d15620c235a643300800000000000000
+      internalID: 230926386355922205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_2
+      name: vista derecha 1_2
       rect:
         serializedVersion: 2
         x: 1118
@@ -190,14 +190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20f37c08203605eb0800000000000000
-      internalID: -4733174345964765438
+      spriteID: 1e93a5a6a03e05700800000000000000
+      internalID: 527170790275824097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_3
+      name: vista derecha 1_3
       rect:
         serializedVersion: 2
         x: 1658
@@ -211,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bc110b83daa3cff0800000000000000
-      internalID: -16982148032422736
+      spriteID: 0c79f20e886e95560800000000000000
+      internalID: 7303121746309126080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_4
+      name: vista derecha 1_4
       rect:
         serializedVersion: 2
         x: 2306
@@ -232,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bc53f91160238aa0800000000000000
-      internalID: -6160044263893410636
+      spriteID: d855797df8f119240800000000000000
+      internalID: 4796649780784092557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_5
+      name: vista derecha 1_5
       rect:
         serializedVersion: 2
         x: 2950
@@ -253,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb8ebd83d3e9b5980800000000000000
-      internalID: -8549065481848624962
+      spriteID: 80e1388c02ce1baa0800000000000000
+      internalID: -6146872390836871672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_6
+      name: vista derecha 1_6
       rect:
         serializedVersion: 2
         x: 3548
@@ -274,14 +274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95faea5be0528aa30800000000000000
-      internalID: 4226668995395104601
+      spriteID: c85c8eafc1237f240800000000000000
+      internalID: 4825380625800807820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_7
+      name: vista derecha 1_7
       rect:
         serializedVersion: 2
         x: 4138
@@ -295,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b84cd2d0de6b7d70800000000000000
-      internalID: 9041942520046307513
+      spriteID: 277ae6caf63bdb620800000000000000
+      internalID: 2791584636255250290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_8
+      name: vista derecha 1_8
       rect:
         serializedVersion: 2
         x: 4729
@@ -316,14 +316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01d515252a4834ae0800000000000000
-      internalID: -1566262412694168304
+      spriteID: 8aea8bc8fa4df09a0800000000000000
+      internalID: -6264554706203791704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_9
+      name: vista derecha 1_9
       rect:
         serializedVersion: 2
         x: 5317
@@ -337,14 +337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15d17550d71f67b50800000000000000
-      internalID: 6590720623966100817
+      spriteID: 981d24e2b1b685b80800000000000000
+      internalID: -8405850940002610807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_10
+      name: vista derecha 1_10
       rect:
         serializedVersion: 2
         x: 5852
@@ -358,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cbaae6bf19a41790800000000000000
-      internalID: -7560231920770307128
+      spriteID: 467c68137c5b9a510800000000000000
+      internalID: 1560978612994623332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_11
+      name: vista derecha 1_11
       rect:
         serializedVersion: 2
         x: 6392
@@ -379,14 +379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11fad105491e82fd0800000000000000
-      internalID: -2366393577067663599
+      spriteID: e4e7db5c641bc3d40800000000000000
+      internalID: 5565518157046447694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_12
+      name: vista derecha 1_12
       rect:
         serializedVersion: 2
         x: 7036
@@ -400,14 +400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33badb105330c5200800000000000000
-      internalID: 170014412130593587
+      spriteID: 0213a3249b966d750800000000000000
+      internalID: 6329362570716786976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_13
+      name: vista derecha 1_13
       rect:
         serializedVersion: 2
         x: 7684
@@ -421,14 +421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c038feee0a54c0a0800000000000000
-      internalID: -6862260912020508478
+      spriteID: d4ec3ca1fd559e640800000000000000
+      internalID: 5109709668943646285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_14
+      name: vista derecha 1_14
       rect:
         serializedVersion: 2
         x: 8283
@@ -442,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9ae74950a18f9350800000000000000
-      internalID: 6025677352137648798
+      spriteID: 409292e8fb74f21b0800000000000000
+      internalID: -5679241717041518332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vista derecha_15
+      name: vista derecha 1_15
       rect:
         serializedVersion: 2
         x: 8872
@@ -463,8 +463,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e4afa8e99396af10800000000000000
-      internalID: 2280672550552839396
+      spriteID: 573c1f8718b00a740800000000000000
+      internalID: 5161137823674385269
       vertices: []
       indices: 
       edges: []
