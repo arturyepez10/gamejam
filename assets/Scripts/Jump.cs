@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
+    public AudioClip jumpsound, landsoft;
     // Fuerza de salto
     [SerializeField]
     private float jump = 230f;
@@ -16,6 +17,13 @@ public class Jump : MonoBehaviour
     private bool djEnabled = true;
     // Vector con la posicion actual antes de saltar
     private Vector3 current_pos;
+
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +41,9 @@ public class Jump : MonoBehaviour
             // Agrega fuerza de salto al jugador
             r2d.AddForce(Vector2.up * jump);
             current_pos = transform.position;
+            GetComponent<AudioSource>().PlayOneShot(jumpsound, 0.5f);
             grounded = false;                             // **Ponemos grounded aqui en vez de OnCollisionExit2D() ya que puede tardar unos microsegundos en cambiarse y nos agrega una fuerza mucho mayor. En cambio aqui el cambio de grounded se realiza al instante.
+            
         }
         else if (Input.GetKeyDown("space") && !grounded && !alreadyDJ && djEnabled)
         {
@@ -42,10 +52,20 @@ public class Jump : MonoBehaviour
             current_pos = transform.position;
             grounded = false;  
             alreadyDJ = true;  
+            GetComponent<AudioSource>().PlayOneShot(jumpsound, 0.5f);
         }
-        
+
+        if (!grounded)
+        {
+            animator.SetBool("Player_jump", true);
+        }
+        else
+        {
+            animator.SetBool("Player_jump", false);
+        }
+
         // Cuando el salto llega a su limite, el Jugador se regresa al piso
-        if(transform.position.y >= current_pos.y + 1f)
+        if (transform.position.y >= current_pos.y + 1f)
         {
             r2d.velocity = (Vector2.right * r2d.velocity.x) + (Vector2.up * -2f);
         }
@@ -57,6 +77,7 @@ public class Jump : MonoBehaviour
         // Si el jugador colisiona (toca) el piso
         if (col.gameObject.tag == "Floor")
         {
+            GetComponent<AudioSource>().PlayOneShot(landsoft, 0.5f);
             // marcamos que esta en el piso
             grounded = true;
             alreadyDJ = false;

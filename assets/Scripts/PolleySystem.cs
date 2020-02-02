@@ -21,8 +21,6 @@ public class PolleySystem : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-
-        Debug.Log(transform.position.y);
         if (r2d.velocity.y != 0)
         {
             movementStart = true;
