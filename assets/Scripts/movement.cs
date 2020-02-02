@@ -13,6 +13,12 @@ public class movement : MonoBehaviour
     private Grab grab;
     private bool grabbed;
     private bool can_move = true;
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Start()
     {
@@ -25,6 +31,15 @@ public class movement : MonoBehaviour
     {
 
         moveHorizontal = Input.GetAxisRaw("Horizontal");
+        if (Mathf.Abs(moveHorizontal)!=0)
+        {
+            animator.SetBool("camina", true);
+        }
+        else
+        {
+            animator.SetBool("camina",false);
+        }
+       
         if(can_move || moveHorizontal >= 0)
         {
             transform.position += new Vector3(speed * Time.deltaTime * moveHorizontal, 0f, 0f);
