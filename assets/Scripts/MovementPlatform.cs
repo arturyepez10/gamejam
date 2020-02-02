@@ -25,9 +25,9 @@ public class MovementPlatform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pos1.x = c2d1.bounds.center.x + c2d1.bounds.extents.x + 1.5f;
+        pos1.x = c2d1.bounds.center.x + c2d1.bounds.extents.x;
         pos1.y = posy1; 
-        pos2.x = c2d2.bounds.center.x - c2d2.bounds.extents.x - 1.5f;
+        pos2.x = c2d2.bounds.center.x - c2d2.bounds.extents.x;
         pos2.y = posy2;
     }
 

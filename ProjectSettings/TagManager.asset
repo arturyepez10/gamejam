@@ -8,6 +8,8 @@ TagManager:
   - Obstacle
   - Mother
   - Unseen Wall
+  - Pendulo
+  - death_floo
   layers:
   - Default
   - TransparentFX
