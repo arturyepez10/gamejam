@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 93041a8986b497748992fc0b824bc78c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6518831604815882492
+    second: DreamBondsWolfMom_0
+  - first:
+      213: 7286680149756341117
+    second: DreamBondsWolfMom_1
+  - first:
+      213: -6480939335821718067
+    second: DreamBondsWolfMom_2
+  - first:
+      213: 4285509827240840417
+    second: DreamBondsWolfMom_3
+  - first:
+      213: 6061696478351718796
+    second: DreamBondsWolfMom_4
+  - first:
+      213: -8749165762906919565
+    second: DreamBondsWolfMom_5
+  - first:
+      213: 7005137195477215499
+    second: DreamBondsWolfMom_6
+  - first:
+      213: 4900411007072301370
+    second: DreamBondsWolfMom_7
+  - first:
+      213: -3855831989266354030
+    second: DreamBondsWolfMom_8
+  - first:
+      213: -7195970107661876010
+    second: DreamBondsWolfMom_9
+  - first:
+      213: 1582635600358502373
+    second: DreamBondsWolfMom_10
+  - first:
+      213: 2152028045361881216
+    second: DreamBondsWolfMom_11
+  - first:
+      213: -2217537459700683489
+    second: DreamBondsWolfMom_12
+  - first:
+      213: -6195134985529509845
+    second: DreamBondsWolfMom_13
+  - first:
+      213: -1979421861545102396
+    second: DreamBondsWolfMom_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 4273
+        width: 778
+        height: 3181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4071c5491357885a0800000000000000
+      internalID: -6518831604815882492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_1
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 4236
+        width: 744
+        height: 3207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bed1e5dfc7f1560800000000000000
+      internalID: 7286680149756341117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_2
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 4128
+        width: 1030
+        height: 3354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd8d75f2041f06a0800000000000000
+      internalID: -6480939335821718067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_3
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 4189
+        width: 1259
+        height: 3258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecc2267b70397b30800000000000000
+      internalID: 4285509827240840417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_4
+      rect:
+        serializedVersion: 2
+        x: 5080
+        y: 4258
+        width: 960
+        height: 3224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89f360b4d87f1450800000000000000
+      internalID: 6061696478351718796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_5
+      rect:
+        serializedVersion: 2
+        x: 6421
+        y: 4198
+        width: 1133
+        height: 3249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d6cecf718b49680800000000000000
+      internalID: -8749165762906919565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 728
+        height: 3267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09ab4b1a2f373160800000000000000
+      internalID: 7005137195477215499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_7
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 554
+        width: 1326
+        height: 3229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3175f1f8d1c10440800000000000000
+      internalID: 4900411007072301370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_8
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 0
+        width: 1430
+        height: 3191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290f03e1c355d7ac0800000000000000
+      internalID: -3855831989266354030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_9
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 865
+        width: 729
+        height: 3170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d40c7e1057c22c90800000000000000
+      internalID: -7195970107661876010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_10
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 0
+        width: 893
+        height: 3258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef614081b6a6f510800000000000000
+      internalID: 1582635600358502373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_11
+      rect:
+        serializedVersion: 2
+        x: 5580
+        y: 932
+        width: 1008
+        height: 2978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0802976fa1a8ddd10800000000000000
+      internalID: 2152028045361881216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_12
+      rect:
+        serializedVersion: 2
+        x: 6580
+        y: 1069
+        width: 1006
+        height: 3044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d2b6eed69b931e0800000000000000
+      internalID: -2217537459700683489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_13
+      rect:
+        serializedVersion: 2
+        x: 4225
+        y: 854
+        width: 59
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b283bebcd85760aa0800000000000000
+      internalID: -6195134985529509845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamBondsWolfMom_14
+      rect:
+        serializedVersion: 2
+        x: 4296
+        y: 854
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c336f9ed4ea784e0800000000000000
+      internalID: -1979421861545102396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
