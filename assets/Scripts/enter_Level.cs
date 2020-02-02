@@ -15,16 +15,13 @@ public class enter_Level : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetButtonDown("Vertical") && onDoor)
-        {
+        if(Input.GetButtonDown("Vertical") && onDoor) {
             Debug.Log("Holis");
         } else if(Input.GetButtonDown("Vertical") && momDoor) {
             SceneManager.LoadScene("Mom Dream");
         } else if(Input.GetButtonDown("Vertical") && dadDoor) {
             SceneManager.LoadScene("Dad Dream");
         }
-
-
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -42,8 +39,7 @@ public class enter_Level : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D col)
     {
-        if(col.tag == "mom_door")
-        {
+        if(col.tag == "mom_door") {
             momDoor = false;
         } else if (col.tag == "dad_door") {
             dadDoor = false;
