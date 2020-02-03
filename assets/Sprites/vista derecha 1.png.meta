@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: f26c114482d20294eb4ceed016dbf080
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -965593311788704728
+    second: vista derecha 1_0
+  - first:
+      213: 230926386355922205
+    second: vista derecha 1_1
+  - first:
+      213: 527170790275824097
+    second: vista derecha 1_2
+  - first:
+      213: 7303121746309126080
+    second: vista derecha 1_3
+  - first:
+      213: 4796649780784092557
+    second: vista derecha 1_4
+  - first:
+      213: -6146872390836871672
+    second: vista derecha 1_5
+  - first:
+      213: 4825380625800807820
+    second: vista derecha 1_6
+  - first:
+      213: 2791584636255250290
+    second: vista derecha 1_7
+  - first:
+      213: -6264554706203791704
+    second: vista derecha 1_8
+  - first:
+      213: -8405850940002610807
+    second: vista derecha 1_9
+  - first:
+      213: 1560978612994623332
+    second: vista derecha 1_10
+  - first:
+      213: 5565518157046447694
+    second: vista derecha 1_11
+  - first:
+      213: 6329362570716786976
+    second: vista derecha 1_12
+  - first:
+      213: 5109709668943646285
+    second: vista derecha 1_13
+  - first:
+      213: -5679241717041518332
+    second: vista derecha 1_14
+  - first:
+      213: 5161137823674385269
+    second: vista derecha 1_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +88,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +118,357 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vista derecha 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 410
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c5755bff58992f0800000000000000
+      internalID: -965593311788704728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 421
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15620c235a643300800000000000000
+      internalID: 230926386355922205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_2
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 0
+        width: 485
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e93a5a6a03e05700800000000000000
+      internalID: 527170790275824097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_3
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 0
+        width: 598
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c79f20e886e95560800000000000000
+      internalID: 7303121746309126080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_4
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 0
+        width: 481
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d855797df8f119240800000000000000
+      internalID: 4796649780784092557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_5
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 0
+        width: 421
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e1388c02ce1baa0800000000000000
+      internalID: -6146872390836871672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_6
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 0
+        width: 417
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85c8eafc1237f240800000000000000
+      internalID: 4825380625800807820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_7
+      rect:
+        serializedVersion: 2
+        x: 4138
+        y: 0
+        width: 419
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277ae6caf63bdb620800000000000000
+      internalID: 2791584636255250290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_8
+      rect:
+        serializedVersion: 2
+        x: 4729
+        y: 0
+        width: 420
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aea8bc8fa4df09a0800000000000000
+      internalID: -6264554706203791704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_9
+      rect:
+        serializedVersion: 2
+        x: 5317
+        y: 0
+        width: 422
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981d24e2b1b685b80800000000000000
+      internalID: -8405850940002610807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_10
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 0
+        width: 485
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467c68137c5b9a510800000000000000
+      internalID: 1560978612994623332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_11
+      rect:
+        serializedVersion: 2
+        x: 6392
+        y: 0
+        width: 598
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e7db5c641bc3d40800000000000000
+      internalID: 5565518157046447694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_12
+      rect:
+        serializedVersion: 2
+        x: 7036
+        y: 0
+        width: 485
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0213a3249b966d750800000000000000
+      internalID: 6329362570716786976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_13
+      rect:
+        serializedVersion: 2
+        x: 7684
+        y: 0
+        width: 422
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ec3ca1fd559e640800000000000000
+      internalID: 5109709668943646285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_14
+      rect:
+        serializedVersion: 2
+        x: 8283
+        y: 0
+        width: 417
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409292e8fb74f21b0800000000000000
+      internalID: -5679241717041518332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vista derecha 1_15
+      rect:
+        serializedVersion: 2
+        x: 8872
+        y: 0
+        width: 415
+        height: 1776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573c1f8718b00a740800000000000000
+      internalID: 5161137823674385269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

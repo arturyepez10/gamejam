@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 6d1549ae192a92b49bba672f9a9751c0
+  - enabled: 1
     path: Assets/Scenes/Hub.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -14,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dad Dream.unity
     guid: ad7789aaf5295eb46aa77e9ac2678342
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 564deee02fffce44bb8ab14b64190616
   m_configObjects: {}

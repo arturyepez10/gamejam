@@ -6,6 +6,8 @@ public class Die : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D col) {
         if (col.tag == "death_floo") {
             SceneManager.LoadScene("Hub");
+        } else if (col.tag == "endgame") {
+            SceneManager.LoadScene("Creditos");
         }
     }
 }

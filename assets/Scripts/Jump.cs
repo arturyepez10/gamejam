@@ -77,7 +77,7 @@ public class Jump : MonoBehaviour
         // Si el jugador colisiona (toca) el piso
         if (col.gameObject.tag == "Floor")
         {
-            GetComponent<AudioSource>().PlayOneShot(landsoft, 0.5f);
+            // GetComponent<AudioSource>().PlayOneShot(landsoft, 0.5f);
             // marcamos que esta en el piso
             grounded = true;
             alreadyDJ = false;

@@ -12,6 +12,7 @@ TagManager:
   - death_floo
   - mom_door
   - dad_door
+  - endgame
   layers:
   - Default
   - TransparentFX
